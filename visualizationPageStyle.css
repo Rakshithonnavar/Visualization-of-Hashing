@@ -118,6 +118,13 @@ body {
 	margin: 0; 	padding: 10px 0; 
 }
 
+.VisualizationMainPage #class a{
+	.Linkedin {  
+		background: #007bb5;  
+		color: white;  
+	  }  
+}
+
 EM {text-decoration: bold;}
 
 	
