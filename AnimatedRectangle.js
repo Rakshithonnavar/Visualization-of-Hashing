@@ -1,6 +1,4 @@
 
-
-
 // Values for xJust / yJust:  "center", "left", "right", "top", "bottom"
 
 AnimatedRectangle = function(id, val, wth, hgt,  xJust, yJust, fillColor, edgeColor)
