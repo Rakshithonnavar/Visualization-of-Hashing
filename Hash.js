@@ -135,7 +135,7 @@ Hash.prototype.doHash = function(input)
 		return index;
 		
 	}
-	/*else
+	else
 	{
 		var oldnextIndex = this.nextIndex;
 		var label1= this.nextIndex++;
@@ -172,7 +172,7 @@ Hash.prototype.doHash = function(input)
 		{
 			floatingDigits[i] = this.nextIndex++;
 		}
-		this.cmd("Step");*/
+		this.cmd("Step");
 		for (i = wordToHash.length-1; i >= 0; i--)
 		{
 			for (j = 0; j < 32; j++)
