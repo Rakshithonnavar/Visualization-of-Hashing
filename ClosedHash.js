@@ -248,7 +248,9 @@ ClosedHash.prototype.deleteElement = function(elem)
 	index = this.getElemIndex(index, elem);
 	
 	if (index > 0)
+
 	{
+		
 		this.cmd("SetText", this.ExplainLabel, "Deleting element: " + elem + "  Element deleted");
 		this.empty[index] = true;
 		this.deleted[index] = true;
@@ -256,7 +258,7 @@ ClosedHash.prototype.deleteElement = function(elem)
 	}
 	else 
 	{
-		this.cmd("SetText", this.ExplainLabel, "Deleting element: " + elem + "  Element not in table");
+				this.cmd("SetText", this.ExplainLabel, " Deleting element: " + elem + " Element not in table");
 	}
 	return this.commands;
 	
