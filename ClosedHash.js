@@ -247,7 +247,7 @@ ClosedHash.prototype.deleteElement = function(elem)
 	
 	index = this.getElemIndex(index, elem);
 	
-	if (index > 0)
+	if (index>=0)
 
 	{
 		
