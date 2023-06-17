@@ -1,10 +1,5 @@
 
 
-// The views and conclusions contained in the software and documentation are those of the
-// authors and should not be interpreted as representing official policies, either expressed
-// or implied, of the University of San Francisco
-
-
 function ClosedHash(am, w, h)
 {
 	this.init(am, w, h);
@@ -12,7 +7,7 @@ function ClosedHash(am, w, h)
 }
 
 var ARRAY_ELEM_WIDTH = 90;
-var ARRAY_ELEM_HEIGHT = 30;
+var ARRAY_ELEM_HEIGHT = 40;
 var ARRAY_ELEM_START_X = 50;
 var ARRAY_ELEM_START_Y = 100;
 var ARRAY_VERTICAL_SEPARATION = 100;
