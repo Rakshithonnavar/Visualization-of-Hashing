@@ -29,7 +29,9 @@ var HASH_TABLE_SIZE  = 13;
 var ARRAY_Y_POS = 350;
 
 
-var INDEX_COLOR = "#0000FF";
+var INDEX_COLOR = "#FF0000";
+//document.getElementsByName(INDEX_COLOR).style.fontSize = "large"
+
 
 
 
