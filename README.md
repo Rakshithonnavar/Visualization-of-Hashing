@@ -13,3 +13,4 @@ operates by taking the original hash index and adding successive values of an ar
 quadratic polynomial until an open slot is found. Double hashing is a computer 
 programming technique used in hash tables to resolve hash collisions, in cases when two 
 different values to be searched for produce the same hash key. It is a popular collision resolution technique in open-addressed hash tables.
+Tech Stacks : HTML5 ,CSS3 ,JAVASCRIPT 
